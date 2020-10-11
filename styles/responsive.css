@@ -26,6 +26,10 @@
 
     }
 
+    #about-page .card .card-wrapper .inner-card img {
+        width: 20%;
+   }
+
     #about-page .card .card-wrapper .inner-card:first-child {
         margin-right: 20px;
     }

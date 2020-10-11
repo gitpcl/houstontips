@@ -331,33 +331,39 @@ main {
     font-size: 3rem;
  }
 
- #about-page .card .inner-card {
+ #about-page .card .card-wrapper {
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     gap:20px;
+ }
+
+ #about-page .card .card-wrapper .inner-card {
     background: rgb(242, 242, 242);
     text-align: center;
     margin-top: 80px;
     border-radius: 15px;
  }
 
-#about-page .card .inner-card img {
+#about-page .card .card-wrapper .inner-card img {
      width: 50%;
      border-radius: 50%;
      margin-top: -60px;
 }
 
-#about-page .card .inner-card h3 {
+#about-page .card .card-wrapper .inner-card h3 {
     margin: 20px 0;
 }
 
-#about-page .card .inner-card p {
+#about-page .card .card-wrapper .inner-card p {
      padding: 0 30px 0 30px;
 }
 
-#about-page .card .inner-card .profile-links {
+#about-page .card .card-wrapper .inner-card .profile-links {
     font-size: 1.5rem;
     padding: 10px 0;
 }
 
-#about-page .card .inner-card .profile-links i {
+#about-page .card .card-wrapper .inner-card .profile-links i {
     margin: 0 5px;
 }
 
