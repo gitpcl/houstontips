@@ -578,6 +578,8 @@ header .header .links button span {
      display:inline-block;
      margin-top: 20px;
      font-size: .8rem;
+     margin-right:10px;
+     margin-bottom: 15px;
  }
 
  footer .footer-wrapper ul a {
@@ -588,6 +590,7 @@ header .header .links button span {
  footer .footer-wrapper .icons i {
      font-size: 1.3rem;
      font-weight: bold;
+     margin-right: 15px;
  }
 
  footer .footer-wrapper .icons a {
