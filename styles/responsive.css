@@ -1,19 +1,36 @@
 @media (min-width:600px) {
 
-    #home-page .intro .head,
-    #home-page .about-us,
-    #home-page .highlights {
-        width: 375px;
+    #home-page .wrapper {
+        width:80%;
+        margin:0 auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #home-page .right .intro .head,
+    #home-page .right .about-us,
+    #home-page .right .highlights {
+        width: 100%;
         margin:0 auto;
     }
 
-    #home-page .intro .cards-social {
-        width: 375px;
+    #home-page .right .intro .cards-social {
+        width: 80%;
         margin:0 auto;
     }
 
-    #home-page .intro .head img {
+    #home-page .right .intro .head img {
         width: 30%;
+    }
+
+    #home-page .left {
+        width: 100%;
+        margin:0 auto;
+        display: inline;
+    }
+
+    #home-page .left img {
+        width:100%;
     }
 
     #about-page .card {

@@ -145,32 +145,32 @@ header .header .links button span {
     background: var(--dark-blue-color);
 }
 
-#home-page .intro {
+#home-page .right .intro {
     color: var(--white-color);
     padding: 20px;
     text-align:center;
 }
 
-#home-page .intro .head img {
+#home-page .right .intro .head img {
     width:100%;
 }
 
-#home-page .intro .head h1 {
+#home-page .right .intro .head h1 {
     margin-bottom: 30px;
     
 }
 
-#home-page .intro .head h3 {
+#home-page .right .intro .head h3 {
     margin-bottom: 10px;
     margin-top: -1rem;
 }
 
-#home-page .intro .cards-social {
+#home-page .right .intro .cards-social {
     display: flex;
     justify-content: space-evenly;
 }
 
-#home-page .intro .cards-social .card-social {
+#home-page .right .intro .cards-social .card-social {
     background: rgba(242, 242, 242, 0.1);
     color: var(--white-color);
     padding: 20px 10px;
@@ -180,50 +180,50 @@ header .header .links button span {
     justify-content: center;
 }
 
-#home-page .intro .cards-social .card-social p i {
+#home-page .right .intro .cards-social .card-social p i {
     color: var(--gold-color);
     margin-right: 10px;
 }
 
-#home-page .intro .cards-social .card-social:first-child {
+#home-page .right .intro .cards-social .card-social:first-child {
     margin-right: 10px;
 }
 
-#home-page .about-us {
+#home-page .right .about-us {
     padding: 20px;
     color: white;
 }
 
-#home-page .about-us h1 {
+#home-page .right .about-us h1 {
     margin-bottom: 10px;
     font-weight: 400;
 }
 
-#home-page .about-us p {
+#home-page .right .about-us p {
     opacity: rgba(255, 255, 255, 0.1);
     line-height: 1.2;
 }
 
-#home-page .highlights {
+#home-page .right .highlights {
     padding: 20px;
     color: white;
 }
 
-#home-page .highlights h1 {
+#home-page .right .highlights h1 {
     margin-bottom: 10px;
     font-weight: 400;
 }
 
-#home-page .highlights ul li {
+#home-page .right .highlights ul li {
     margin-bottom: 5px;
 }
 
-#home-page .highlights ul li {
+#home-page .right .highlights ul li {
     opacity: 0.7;
     list-style-type: none;
 }
 
-#home-page button {
+#home-page .right button {
     margin-top: 20px;;
     padding: 20px;
     width: 100%;
@@ -232,6 +232,10 @@ header .header .links button span {
     color: var(--white-color);
     border-radius: 5px;
     font-size:1rem;
+}
+
+#home-page .left  {
+    display:none;
 }
 
 /* ANALYTICS */

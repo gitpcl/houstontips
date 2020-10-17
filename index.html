@@ -29,20 +29,36 @@
 
         <!-- Facebook Pixel Code -->
         <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '821612818585365');
-        fbq('track', 'PageView');
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) 
+                    return;
+                n = f.fbq = function () {
+                    n.callMethod
+                        ? n
+                            .callMethod
+                            .apply(n, arguments)
+                        : n
+                            .queue
+                            .push(arguments)
+                };
+                if (!f._fbq) 
+                    f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s
+                    .parentNode
+                    .insertBefore(t, s)
+            }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '821612818585365');
+            fbq('track', 'PageView');
         </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=821612818585365&ev=PageView&noscript=1"
-        /></noscript>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=821612818585365&ev=PageView&noscript=1"/></noscript>
         <!-- End Facebook Pixel Code -->
 
     </head>
@@ -108,43 +124,59 @@
                             <i class="fas fa-store"></i>Store
                         </li>
                     </a>
+                    <a href="https://squareup.com/outreach/P17wkX/subscribe">
+                        <li>
+                            <i class="fas fa-envelope-open-text"></i>Subscribe
+                        </li>
+                    </a>
                 </ul>
             </div>
         </header>
 
         <main id="home-page">
-            <div class="intro">
-                <div class="head">
-                    <img src="assets/logo-icon.png" alt="HoustonTips Icon">
-                    <h3>We are a Houston Marketing Agency</h3>
-                    <h1>HOUSTON TIPS</h1>
-                </div>
-                <div class="cards-social">
-                    <div class="card-social">
-                        <p>
-                            <i class="fa fa-instagram"></i>65.6K</p>
+            <div class="wrapper">
+                <div class="right">
+                    <div class="intro">
+                        <div class="head">
+                            <img src="assets/logo-icon.png" alt="HoustonTips Icon">
+                            <h3>We are a Houston Marketing Agency</h3>
+                            <h1>HOUSTON TIPS</h1>
+                        </div>
+                        <div class="cards-social">
+                            <div class="card-social">
+                                <p>
+                                    <i class="fa fa-instagram"></i>66.4K</p>
+                            </div>
+                            <div class="card-social">
+                                <p>
+                                    <i class="fab fa-tiktok"></i>5.4K</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-social">
-                        <p>
-                            <i class="fab fa-tiktok"></i>5.5K</p>
+
+                    <div class="about-us">
+                        <h1>About Us</h1>
+                        <p>Hello! This is our media kit. Below is our audience demographic information from my social media accounts. If you’d like to work with me please reach out via instagram DM or email at ads@houstontips.us.</p>
+                    </div>
+
+                    <div class="highlights">
+                        <h1>Highlights</h1>
+                        <ul>
+                            <li>Experienced Instagram Influencer</li>
+                            <li>Savvy Digital Media Content Creator</li>
+                            <li>Awesome Marketing Agency</li>
+                        </ul>
+                        <a href="analytics.html">
+                            <button>Detailed Analytics</button>
+                        </a>
                     </div>
                 </div>
+
+                <div class="left">
+                    <img src="assets/woman.png" alt="Influencer Image">
+                </div>
             </div>
-            <div class="about-us">
-                <h1>About Us</h1>
-                <p>Hello! This is my live media kit. Below is my audience demographic information from my social media accounts. If you’d like to work with me please reach out via instagram DM or email at ads@houstontips.us.</p>
-            </div>
-            <div class="highlights">
-                <h1>Highlights</h1>
-                <ul>
-                    <li>Experienced Instagram Influencer</li>
-                    <li>Savvy Digital Media Content Creator</li>
-                    <li>Awesome Marketing Agency</li>
-                </ul>
-                <a href="analytics.html">
-                    <button>Detailed Analytics</button>
-                </a>
-            </div>
+
         </main>
         <footer>
             <div class="footer-wrapper">
