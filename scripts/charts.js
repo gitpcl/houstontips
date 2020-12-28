@@ -2,10 +2,10 @@ var ctx = document.getElementById('topLocations');
 var topLocations = new Chart(ctx, {
     type: 'doughnut',
     data: {
-        labels: ['Houston', 'The Woodlands', 'Katy', 'Sugarland', 'Cypress'],
+        labels: ['Houston', 'The Woodlands', 'Cypress', 'Spring', 'Katy'],
         datasets: [{
             label: 'Interesses',
-            data: [62, 1.4, 1, 1, 0.9],
+            data: [62, 1.9, 1.4, 1, 0.9],
             backgroundColor: [
                 'rgba(239, 63, 38, .8)',
                 'rgba(239, 63, 38, .6)',
