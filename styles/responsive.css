@@ -82,6 +82,24 @@
         grid-template-columns: repeat(2,1fr);
     }
 
+    #offer-page .offer-head img {
+        width: 20%;
+    }
+
+    #offer-page .offer-head h3 {
+        width:35%;
+    }
+
+    #offer-page .offer-head h4 {
+        width:35%;
+    }
+
+    #offer-page .offer-wrapper {
+        width:40%;
+        margin:0 auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+
     footer .footer-wrapper .footer-head img {
         width: 10%;
     }

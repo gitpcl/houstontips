@@ -544,6 +544,96 @@ header .header .links button span {
     line-height: 1.2rem;
 }
 
+/* OFFER */
+
+#offer-page {
+    background-color: #e0e8f3;
+}
+
+#offer-page a button {
+    background-color: var(--red-color);
+    padding: 20px 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+#offer-page a #btn2 {
+    background-color: var(--light-blue-color);
+    cursor: pointer;
+}
+
+#offer-page .offer-head {
+    color: var(--blue-color);
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+#offer-page .offer-head img {
+    width: 80%;
+}
+
+#offer-page .offer-head h3 {
+    font-size: 1.5em;
+    margin:0 auto;
+    font-weight: 400;
+    width:80%;
+    margin-top: 20px;
+}
+
+#offer-page .offer-head h4 {
+    margin:0 auto;
+    font-weight: 400;
+    width:80%;
+    margin-top: 20px;
+}
+
+#offer-page .offer-wrapper {
+    padding: 20px;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:20px;
+}
+
+#offer-page .offer-wrapper .offer-card {
+    background: var(--white-color);
+    padding:20px;
+    border-radius:5px;
+    color: var(--blue-color);
+
+}
+
+#offer-page .offer-wrapper .offer-card h4 {
+    text-align:right;
+    color: var(--light-blue-color);
+}
+
+#offer-page .offer-wrapper .offer-card p {
+    margin-bottom:5px;
+}
+
+#offer-page .offer-wrapper .offer-card h3 {
+    margin-top: 10PX;;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+#offer-page .offer-wrapper .offer-card h1 {
+    display:inline;
+    margin-right: 10px;
+    color: var(--red-color);
+}
+
+#offer-page .offer-wrapper .offer-card #note {
+    margin-top:10px;
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 1.2rem;
+}
+
 /* FOOTER */
 
  footer {
