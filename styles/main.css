@@ -247,6 +247,12 @@ header .header .links button span {
     margin-top: 20px;
 }
 
+#analytics-page p {
+    text-align: center;
+    margin-top: 10px;
+    color:var(--dark-blue-color);
+}
+
 #analytics-page .cards-stats {
     padding: 20px;
 }

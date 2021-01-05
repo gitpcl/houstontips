@@ -5,7 +5,7 @@ var topLocations = new Chart(ctx, {
         labels: ['Houston', 'The Woodlands', 'Cypress', 'Spring', 'Katy'],
         datasets: [{
             label: 'Interesses',
-            data: [62, 1.9, 1.4, 1, 0.9],
+            data: [59.7, 1.9, 1.4, 0.9, 0.9],
             backgroundColor: [
                 'rgba(239, 63, 38, .8)',
                 'rgba(239, 63, 38, .6)',
@@ -74,15 +74,15 @@ var ctx = document.getElementById('genderSplit');
 var genderSplit = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['13-17', '18-24', '25-34', '35-44', '45-64'],
+        labels: ['13-17', '18-24', '25-34', '35-44', '45-64','55-64','65+'],
         datasets: [{
             label: "Male",
             backgroundColor: "rgba(116, 209, 252, 1)",
-            data: [.6,6.5,12.9,11.6,4.2]
+            data: [.7,10.9,42.6,29.6,11.2,3.2,1.8]
         },{
             label: "Female",
             backgroundColor: "rgba(239, 63, 38, .8)",
-            data: [1.4,13.1,26.4,12.4,4.5]
+            data: [0.4,8.4,40.6,30.8,13.3,4.4,2.1]
         }],
         borderWidth: 1
     },
