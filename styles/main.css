@@ -170,14 +170,23 @@ header .header .links button span {
     justify-content: space-evenly;
 }
 
+.card-social + .card-social {
+    margin-right: 10px;
+}
+
 #home-page .right .intro .cards-social .card-social {
     background: rgba(242, 242, 242, 0.1);
     color: var(--white-color);
-    padding: 20px 10px;
+    padding: 20px 0;
     width: 80%;
     font-weight: 700;
     display:flex;
     justify-content: center;
+    border-radius: 5px;
+}
+
+#home-page .right .intro .cards-social .card-social a {
+    color: white;
 }
 
 #home-page .right .intro .cards-social .card-social p i {
@@ -638,6 +647,7 @@ header .header .links button span {
     color: gray;
     line-height: 1.2rem;
 }
+
 
 /* FOOTER */
 
