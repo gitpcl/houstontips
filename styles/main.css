@@ -273,6 +273,7 @@ header .header .links button span {
     border-radius: 10px;
     color: var(--blue-color);
     margin-bottom: 10px;
+    position: relative;
 }
 
 #analytics-page .cards-stats .card-stat .circle {
@@ -302,6 +303,14 @@ header .header .links button span {
     font-size:1rem;
     color: gray;
     font-weight:400;
+}
+
+#analytics-page .cards-stats .card-stat p a .fa-external-link {
+    font-size: 18px;
+    margin-left: 5px;
+    position: absolute;
+    top:15px;
+    right: 15px;
 }
 
 #analytics-page .charts-containers {
