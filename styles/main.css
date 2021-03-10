@@ -152,7 +152,9 @@ header .header .links button span {
 }
 
 #home-page .right .intro .head img {
-    width:100%;
+    width:50%;
+    margin-bottom: 40px;
+
 }
 
 #home-page .right .intro .head h1 {
@@ -166,12 +168,8 @@ header .header .links button span {
 }
 
 #home-page .right .intro .cards-social {
-    display: flex;
+    display: block;
     justify-content: space-evenly;
-}
-
-.card-social + .card-social {
-    margin-right: 10px;
 }
 
 #home-page .right .intro .cards-social .card-social {
@@ -183,6 +181,8 @@ header .header .links button span {
     display:flex;
     justify-content: center;
     border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 #home-page .right .intro .cards-social .card-social a {
@@ -311,6 +311,10 @@ header .header .links button span {
     position: absolute;
     top:15px;
     right: 15px;
+}
+
+#analytics-page .cards-stats .card-stat span p {
+    text-align: left;
 }
 
 #analytics-page .charts-containers {

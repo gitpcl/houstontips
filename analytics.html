@@ -27,6 +27,8 @@
 
         <script src="https://kit.fontawesome.com/7ee70a9b62.js" crossorigin="anonymous"></script>
 
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
         <!-- Facebook Pixel Code -->
         <script>
         !function(f,b,e,v,n,t,s)
@@ -114,14 +116,19 @@
             <h2>Instagram Stats Overview
                 <strong>@houstontips</strong>
             </h2>
-            <p>Last Updated: 02/25/2021</p>
+            <!--<p>Last Updated: 02/25/2021</p>-->
             <div class="cards-stats">
                 <div class="card-stat">
                     <div class="circle">
                         <i class="fa fa-users"></i>
                     </div>
-                    <span>84.6K<p>Total followers</p>
-                    </span>
+                    <span class="followers_count"></span>
+                </div>
+                <div class="card-stat">
+                    <div class="circle">
+                        <i class="fa fa-picture-o"></i>
+                    </div>
+                    <span class="media_count"></span>
                 </div>
                 <div class="card-stat">
                     <div class="circle">
@@ -253,7 +260,9 @@
 
         <script src="./scripts/charts.js"></script>
 
-        <script src="./scripts/app.js"></script>
+        <script src="./scripts/nav.js"></script>
+
+        <script src="./scripts/count.js"></script>
 
     </body>
 </html>

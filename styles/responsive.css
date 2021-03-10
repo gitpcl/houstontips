@@ -19,8 +19,13 @@
     }
 
     #home-page .right .intro .cards-social {
-        width: 80%;
+        display: flex;
+        width: 100%;
         margin:0 auto;
+    }
+
+    .card-social + .card-social {
+        margin-right: 10px;
     }
 
     #home-page .right .intro .head img {
