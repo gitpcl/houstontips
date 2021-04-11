@@ -264,6 +264,9 @@ header .header .links button span {
 
 #analytics-page .cards-stats {
     padding: 20px;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:10px;
 }
 
 #analytics-page .cards-stats .card-stat {
@@ -272,7 +275,6 @@ header .header .links button span {
     background: white;
     border-radius: 10px;
     color: var(--blue-color);
-    margin-bottom: 10px;
     position: relative;
 }
 
@@ -291,6 +293,7 @@ header .header .links button span {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #analytics-page .cards-stats .card-stat span {

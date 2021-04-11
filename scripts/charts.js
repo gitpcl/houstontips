@@ -2,10 +2,10 @@ var ctx = document.getElementById('topLocations');
 var topLocations = new Chart(ctx, {
     type: 'doughnut',
     data: {
-        labels: ['Houston', 'The Woodlands', 'Cypress', 'Spring', 'Katy'],
+        labels: ['Houston', 'Katy', 'Cypress', 'The Woodlands', 'Spring'],
         datasets: [{
             label: 'Interesses',
-            data: [59.7, 1.9, 1.4, 0.9, 0.9],
+            data: [50.9, 2.0, 2.0, 1.5, 1.4],
             backgroundColor: [
                 'rgba(239, 63, 38, .8)',
                 'rgba(239, 63, 38, .6)',
@@ -78,11 +78,11 @@ var genderSplit = new Chart(ctx, {
         datasets: [{
             label: "Male",
             backgroundColor: "rgba(116, 209, 252, 1)",
-            data: [.7,10.9,42.6,29.6,11.2,3.2,1.8]
+            data: [.7,11.1,43.1,29.4,10.8,3.3,1.7]
         },{
             label: "Female",
             backgroundColor: "rgba(239, 63, 38, .8)",
-            data: [0.4,8.4,40.6,30.8,13.3,4.4,2.1]
+            data: [0.4,8.5,40.6,30.8,13.3,4.4,2.0]
         }],
         borderWidth: 1
     },
