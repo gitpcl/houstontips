@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Giveaway Tool</title>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The best Marketing Agency in Houston, TX.">
+    <meta name="author" content="Pedro Lopes">
+
+    <!-- Links -->
+    <link href="assets/favicon.png" rel="icon" type="image/png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+    <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+
+    <!--Open Graph Protocol -->
+    <meta property="og:title" content="Follow us @houstontips">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.houstontips.us/">
+    <meta property="og:image" content="assets/opengraph.png">
+    <meta property="og:description" content="The best Marketing Agency in Houston, TX."/>
+
+    <script src="https://kit.fontawesome.com/7ee70a9b62.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img id="header-logo" src="./assets/logo.png" alt="HoustonTips Logo">
+            </div>
+            <div class="links">
+                <button onclick="toggleNavOpen()">
+                    <i class="fas fa-bars fa-2x"></i>
+                </button>
+            </div>
+        </div>
+        <div class="navbar">
+            <button onclick="toggleNavClose()">
+                <i class="fas fa-times fa-2x"></i>
+            </button>
+
+            <img id="logo_slider" src="./assets/logo.png" alt="Logo">
+
+            <ul>
+                <a href="dashboard.html">
+                    <li>
+                        <i class="fas fa-home"></i>Dashboard
+                    </li>
+                </a>
+                <a href="giveaway-tool.html">
+                    <li>
+                        <i class="fas fa-portrait"></i>Giveaway Tool
+                    </li>
+                </a>
+                <a href="mailto:hello@houstontips.us">
+                    <li>
+                        <i class="far fa-envelope"></i>Email
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </header>
+
+    <main id="giveaway-page">
+
+        <div class="subHeader">
+            <div class="subHeaderBox">
+                <button id="newGiveaway" onclick="classChange()">Enter your information here</button>
+            </div>
+            <div id="menu" class="inactive">
+                <h2>Step 1</h2>
+                <p>Upload giveaway image.</p>
+                <ul>
+                    <li>
+                        <label for="giveawayImageFileiInput"><b>Giveaway image</b></label>
+                        <input type="file" id="giveawayImageFileiInput">
+                    </li>
+                    <li>
+                        <label for="winnerImageFileiInput"><b>Winner Image</b></label>
+                        <input type="file" id="winnerImageFileiInput">
+                    </li>
+                    <h2>Step 2</h2>
+                    <p>After uploadig the image click on the button below.</p>
+                    <button id="reloadPage">View giveaway images</button>
+                    <h2>Step 3</h2>
+                    <p>After the images have been loaded, wirte winner information.</p>
+                    <li>
+                        <label for="handleInput"><b>Winner handle</b></label>
+                        <input type="text" class="handleInput" id="text">
+                    </li>
+                    <li>
+                        <label for="commentInput"><b>Comment</b></label>
+                        <input type="text" class="commentInput" id="text">
+                    </li>
+                    <li>
+                        <label for="commentsInput"><b>Number of comments</b></label>
+                        <input type="text" class="commentsInput" id="text">
+                    </li>
+                    
+                    <p><b>In order to start a new giveaway click on the button below.</b></p>
+                    <button id="storageClear">New giveaway</button>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="results">
+
+            <div class="square">
+                <h3>Giveaway Result</h3>
+                <div class="imgBox">
+                    <img id="giveawayImgPreview" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.jennybeaumont.com%2Fwp-content%2Fuploads%2F2015%2F03%2Fplaceholder.gif&f=1&nofb=1" alt="Preview">
+
+                    <img id="winnerImgPreview" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngfind.com%2Fpngs%2Fm%2F610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png&f=1&nofb=1" alt="Preview">
+                </div>
+                
+
+                <div class="resultsBox">
+                    <div class="textBox">
+                        <h4>Winner: </h4>
+                         <p class="handleText"></p> 
+                     </div>
+                     <div class="textBox">
+                        <h4>Comment: </h4>
+                         <p class="commentText"></p> 
+                     </div>
+                     <div class="textBox">
+                         <h4>Number of comments: </h4>
+                         <p class="numbersText"></p>
+                     </div>
+                     <div class="results-footer">
+                        <p><b>@HOUSTONTIPS</b> thanks your participation!</p>
+                        <p id="motto">Thank you for following the rules</p>
+                     </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </main>
+    <!-- Jquery csn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Chart.js link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    <script src="./scripts/nav.js"></script>
+   <script src="./scripts/app.js"></script>
+   <script src="./scripts/count.js"></script>
+   <script src="./scripts/tools.js"></script>
+</body>
+</html>

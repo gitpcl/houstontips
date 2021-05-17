@@ -1,0 +1,204 @@
+/* DASHBOARD */
+
+body {
+    background-color: #FFFFFF;
+}
+
+#dashboard-page {
+    padding: 3%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#dashboard-page .wrapper {
+    /* width: 40vw; */
+    /* height: 100vh; */
+    text-align: left;
+    margin: 0 auto;
+
+    /* margin-right: 20px; */
+}
+
+#dashboard-page .wrapper .card-container {
+    background: url("https://images.unsplash.com/photo-1595039838779-f3780873afdd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    border-radius: 5px;
+    padding-top: 120px;
+}
+
+#dashboard-page .wrapper .card-container img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto -70px;
+}
+
+#dashboard-page .wrapper .card-container .card {
+    background-color: #f4f4f4;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #dedede;
+}
+
+#dashboard-page .wrapper .card-container .card h4 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#dashboard-page .wrapper .card-container .card p {
+    margin-bottom: 20px;
+}
+
+#dashboard-page .wrapper a button {
+    background-color:#ff0e56;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* GIVEAWAY IMAGE Tool */
+
+#newGiveaway {
+    background-color:var(--other-blue-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+}
+
+#storageClear, #reloadPage {
+    background-color:var(--light-blue-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+}
+
+.inactive {
+    visibility: hidden;
+    display:none;
+}
+
+.active {
+    visibility: visible;
+    display:block;
+}
+
+#giveaway-page .subHeader {
+     text-align:center;
+}
+
+#giveaway-page .subHeader .subHeaderBox button {
+    width:100%;
+    border-radius: 0;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+#giveaway-page .subHeader #menu {
+    text-align: left;
+    padding: 40px;
+}
+
+#giveaway-page .subHeader #menu button {
+    width:100%;
+    font-size: 16px;
+}
+
+#giveaway-page .subHeader #menu h2 {
+    margin-bottom: 10px;
+}
+
+#giveaway-page .subHeader #menu p {
+    margin-bottom: 10px;
+}
+
+#giveaway-page .subHeader #menu ul {
+    list-style-type: none;
+}
+
+#giveaway-page .subHeader #menu ul h2 {
+    margin-bottom: 10px;
+}
+
+#giveaway-page .subHeader #menu ul li {
+    margin: 20px 0;
+}
+
+
+#giveaway-page .subHeader #menu ul input {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(225, 225, 225);
+} 
+
+#giveaway-page .results {
+    text-align:center;
+    height: 40vh;
+}
+
+#giveaway-page .square {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+
+}
+
+#giveaway-page .results .square h3 {
+    margin-bottom: 10px;
+    color:var(--blue-color);
+}
+
+#giveaway-page .imgBox {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#giveaway-page .textBox {
+    display:flex;
+    justify-content: center;
+    margin: 5px 0 10px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#giveaway-page #giveawayImgPreview {
+    width: 80%;
+    border-radius: 5px;
+    /* border: 3px solid var(--other-blue-color); */
+}
+#giveaway-page #winnerImgPreview {
+    width: 50%;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 3px solid var(--light-blue-color);
+}
+
+#giveaway-page .results-footer {
+    font-size: 14px;
+}
+
+#giveaway-page .results-footer b {
+    color:var(--other-blue-color);
+}
+
+#giveaway-page .results-footer p:first-of-type {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#giveaway-page .results-footer p + p{
+    color: rgb(123, 123, 123);
+}
