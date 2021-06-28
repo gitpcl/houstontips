@@ -1,8 +1,7 @@
 // JQuery Solution
-$.getJSON("https://graph.facebook.com/v3.2/17841403134443963?fields=business_discovery.username(houstontips){followers_count,media_count}&access_token=EAALMiACnWLABACYtKWV355ERbqBsgfFDTMjWswRI5i4ZBKkJ1X9NhJYtQoX6Mtn1MFPkVcZCfCjy0A3MXV6AvKrbkAvXVynDOswctH7mcZAe7cSl3VuZA6KjoSHtIZAX71bdGGC6vtXdJ3SSuAV89hXb8Nay2ZB51CJENSdhTgBZB01g6tufVv8", function(data) {
-
+$.getJSON("https://graph.facebook.com/v11.0/17841403134443963?fields=business_discovery.username(houstontips){followers_count,media_count}&access_token=EAALMiACnWLABABlgVbNDdZAk5E6PM80ZCZCtJKIctLxuJ17rEcPoBubYYlmO4EULfctJGMJMCuK1bMMhft6TLDS5ZC6WW6ccd5jnXZCpTBnIICKSF6qbhfOxfhoXiGFFGqf4VAty5OPFLzTvxZAWMAcco5a6y5BCohLWPyjAxIHaZALIHyKBcA1Q4ZBvOAZCMt39tjoe0TZAVYBQsD3AixUbLK", function(data) {
+    
     const followers = data.business_discovery.followers_count;
-
     const media = data.business_discovery.media_count;
 
     function commaSeparateNumber(val){
