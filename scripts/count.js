@@ -1,7 +1,7 @@
 // JQuery Solution
-$.getJSON("https://graph.facebook.com/v11.0/17841403134443963?fields=business_discovery.username(houstontips){followers_count,media_count}&access_token=EAALMiACnWLABADDKHEESdAix3r2GOFVjHpzWiZBMdY1zOmC5a6DH000xfM55ZA9C0n5dGHwXILCy5cNmV3ICSX5eeEmD5qPg5KyTFZCoFYKH7h6VZCFu0HJGHVlfxbLOhZBXRSA5uZBGzfQhdeTXU8RlY80RdSZAZAvadfFzq3h4eG3RUOr2Adnb7rw0f6GqxGX7ZAnhWUZCnxlZCiycOZBnOZA30", function(data) {
-    
-    const followers = data.business_discovery.followers_count;
+$.getJSON("https://graph.facebook.com/v11.0/17841403134443963?fields=business_discovery.username(houstontips){followers_count,media_count}&access_token=EAALMiACnWLABAMmahk5uiZBd3IBJZA19ot6siM9mZAlxtOl0JtiZBs878DjPf3t6oOT80diLZCvZCiGpIEiauCQFAvCKLTFRwVgFr5LqbQ6ZBfy7n16ryiQemjskyShkM2bQxeEAgZB8rdnzW5RMHWRRZAljcKcGWzJWUSHVC5Ev48vzPM0v09nSbefD7kLfo6jiinbsSo21nGAZDZD", function(data) {
+
+    const followers = data.business_discovery.followers_count/1000;
     const media = data.business_discovery.media_count;
 
     function commaSeparateNumber(val){
@@ -11,9 +11,9 @@ $.getJSON("https://graph.facebook.com/v11.0/17841403134443963?fields=business_di
         return val;
     }
 
-    $(".followers_count_landing").append((followers/1000).toFixed(1) + ' K');
+    $(".followers_count_landing").append((followers).toFixed(1) + ' K');
 
-    $(".followers_count").append((followers/1000).toFixed(1) + 'K' + '<p>Followers</p>');
+    $(".followers_count").append((followers).toFixed(1) + 'K' + '<p>Followers</p>');
 
     $(".media_count").append(commaSeparateNumber(media + '<p>Media Posted</p>'));
 
