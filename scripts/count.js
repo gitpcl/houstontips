@@ -1,5 +1,5 @@
 // JQuery Solution
-$.getJSON("https://graph.facebook.com/v11.0/17841403134443963?fields=business_discovery.username(houstontips){followers_count,media_count}&access_token=EAALMiACnWLABAMmahk5uiZBd3IBJZA19ot6siM9mZAlxtOl0JtiZBs878DjPf3t6oOT80diLZCvZCiGpIEiauCQFAvCKLTFRwVgFr5LqbQ6ZBfy7n16ryiQemjskyShkM2bQxeEAgZB8rdnzW5RMHWRRZAljcKcGWzJWUSHVC5Ev48vzPM0v09nSbefD7kLfo6jiinbsSo21nGAZDZD", function(data) {
+$.getJSON("https://graph.facebook.com/v10.0/17841403134443963?fields=business_discovery.username(houstontips)%7Bfollowers_count%2Cmedia_count%7D&access_token=EAALMiACnWLABAIuYvvm0GQIkhpV1ZBxfv8UlRrTLffnfl2IpGuRHYLvColXbIZAWsrCJfZBLBHKf4IFtL3WIEEw6t5qfT9ZBZBFhXRIDyiXZB4pDi5wtvoBQz0Ihy8foYXMTpbmMezCILVnrJbibu0CUjbIhsJMpZC3mWzkTMIPqoJ4cmXNBLr4ZABp9DesUBhXdl1OXIxdqsBPSJSoJeFsf", function(data) {
 
     const followers = data.business_discovery.followers_count/1000;
     const media = data.business_discovery.media_count;
@@ -19,3 +19,11 @@ $.getJSON("https://graph.facebook.com/v11.0/17841403134443963?fields=business_di
 
 })
 
+// FB.api(
+//   '/17841403134443963',
+//   'GET',
+//   {"fields":"business_discovery.username(houstontips){followers_count,media_count}"},
+//   function(response) {
+//       console.log(response);
+//   }
+// );
