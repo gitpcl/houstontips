@@ -664,6 +664,54 @@ header .header .links button span {
     line-height: 1.2rem;
 }
 
+/* PRIVACY POLICY */
+
+#privacypolicy-page {
+    background-color: #F2F2F2;
+}
+
+#privacypolicy-page .card {
+    margin: 20px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+}
+
+#privacypolicy-page .card h2 {
+    margin-bottom: 15px;
+    font-family: 'Damion', sans-serif;
+    color: var(--red-color);
+    font-size: 3rem;
+}
+
+#privacypolicy-page .card h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: var(--blue-color);
+}
+
+#privacypolicy-page .card h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: var(--light-blue-color);
+}
+
+#privacypolicy-page .card p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#privacypolicy-page .card ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#privacypolicy-page .card ul li {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
 
 /* FOOTER */
 
